@@ -7,36 +7,49 @@
 🔍 Features:
 
   Stock price data sourced from the Bloomberg Terminal
+  
   Integration of stock data with event-tagged news (policy / subsidy / tariff)
 
 📊 Computations:
 
   Abnormal Returns (AR)
+  
   Cumulative Abnormal Returns (CAR)
+  
   Average Abnormal Returns (AAR)
+  
   Cumulative AAR (CAAR)
+  
   Event window analysis: [-5,+5], [-1,+1]
 
 🧮 Statistical inference:
 
   T-tests, Welch tests, Mann–Whitney tests
+  
   OLS regressions with clustered SEs
 
 🎨 Visualization:
 
   AR/CAAR time series
+  
   Firm-level CAR distributions
+  
   Spillover regression plots
 
-📂 Project Structure
+📂 Project Structure:
 
   EV stock data → Tesla, BYD, NIO, Rivian, Lucid (Bloomberg)
+  
   Supplier stock data → CATL, LG Energy Solution, Panasonic, Samsung SDI, Rio Tinto, Gotion (Bloomberg)
+  
   Event dataset → Policy-related news tagged as subsidy/tariff/policy
 
-📊 Key Outputs
+📊 Key Outputs:
 
    Firm-wise CAR distributions
+   
    CAAR trends across event windows
+   
    % of events with positive CARs
+   
    Supplier spillover coefficients with 95% CI
